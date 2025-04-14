@@ -1,0 +1,103 @@
+body {
+  margin: 0;
+  font-family: Garamond, serif;
+  background: linear-gradient(135deg, #000000, #2e5aa5);
+  color: #ffffff;
+}
+.hero-section {
+  height: 30vh;
+  background-image: url('/public/images/background.png'); /* ✅ Notice the leading slash */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  color: white;
+  text-align: center;
+}
+h1, h2 {
+  color: #ffffff;
+  text-align: center;
+}
+p {
+  color: #cccccc;
+  text-align: center;
+}
+h4, h3 {
+  color: #cccccc;
+  text-decoration: underline;
+  text-align: center;
+}
+img {
+  max-width: 100%;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px;
+  margin: 20px;
+}
+.header-name {
+  margin-bottom: 4px;
+  line-height: 1.2;
+}
+
+.header-title {
+  margin-bottom: 4px;
+  line-height: 1.2;
+}
+
+.header-phone,
+.header-email {
+  margin: 4px 0;
+  line-height: 1.2;
+}
+
+.header {
+  text-align: center;
+}
+/* Hide scrollbar but allow scrolling */
+body {
+  overflow-y: scroll;
+  scrollbar-width: none; /* Firefox */
+}
+
+body::-webkit-scrollbar {
+  display: none; /* Chrome, Safari */
+}
+html {
+  scrollbar-width: none;
+}
+
+html::-webkit-scrollbar {
+  display: none;
+}
+/* Hide scrollbar but keep scrolling functionality */
+body, html {
+  overflow-y: scroll;
+  scrollbar-width: none;        /* Firefox */
+}
+
+body::-webkit-scrollbar,
+html::-webkit-scrollbar {
+  display: none;                /* Chrome, Safari */
+}
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-color: #0e1726; /* Match your site’s dark background */
+  overflow-x: hidden;
+}
+
+body {
+  min-height: 100vh;
+}
